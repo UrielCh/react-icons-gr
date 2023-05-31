@@ -23,17 +23,25 @@ For a transparent usage:
 
 ## Direct import sample
 
-`import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.1/mod.ts"`
+```ts
+import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.1/mod.ts"
+```
 
 ## import_map import sample
 
-`import { GrAccessibility } from "react-icons/gr"`
+```ts
+import { GrAccessibility } from "react-icons/gr"
+```
 
 ## minimal import
 
-`import { GrAccessibility } from "react-icons/gr/GrAccessibility.ts"`
+```ts
+import { GrAccessibility } from "react-icons/gr/GrAccessibility.ts"
+```
 
-## minimal import default
+## minimal import using default export
 
-`import GrAccessibility from "react-icons/gr/GrAccessibility.ts"`
+```ts
+import GrAccessibility from "react-icons/gr/GrAccessibility.ts"
+```
 
