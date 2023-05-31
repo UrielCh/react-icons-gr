@@ -4,7 +4,7 @@
 
 **Project** [https://github.com/grommet/grommet-icons](https://github.com/grommet/grommet-icons)
 
-[See available icons here](https://react-icons.github.io/react-icons/icons?name=gr)
+[See available icons here](https://react-icons.deno.dev/gr)
 
 ## import_map.json
 
@@ -15,8 +15,8 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/gr":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.7/mod.ts",
-    "react-icons/gr/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.7/ico/",
+    "react-icons/gr":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.8/mod.ts",
+    "react-icons/gr/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.8/ico/",
   }
 }
 ```
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Import an icon without import_map by and afer loading all icons from the lib gr
 
 ```ts
-import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.7/mod.ts"
+import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.8/mod.ts"
 ```
 
 ## import_map import an icon from all icons
