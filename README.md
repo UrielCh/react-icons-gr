@@ -15,31 +15,31 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/gr":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.6/mod.ts",
-    "react-icons/gr/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.6/ico/",
+    "react-icons/gr":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.7/mod.ts",
+    "react-icons/gr/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.7/ico/",
   }
 }
 ```
 
-## Direct import sample
+## Import an icon without import_map by and afer loading all icons from the lib gr
 
 ```ts
-import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.6/mod.ts"
+import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.7/mod.ts"
 ```
 
-## import_map import sample
+## import_map import an icon from all icons
 
 ```ts
 import { GrAccessibility } from "react-icons/gr"
 ```
 
-## minimal import
+## import a single icon, downloading just one icon
 
 ```ts
 import { GrAccessibility } from "react-icons/gr/GrAccessibility.ts"
 ```
 
-## minimal import using default export
+or using default export
 
 ```ts
 import GrAccessibility from "react-icons/gr/GrAccessibility.ts"
