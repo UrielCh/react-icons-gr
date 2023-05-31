@@ -15,8 +15,8 @@ For a transparent usage:
   "imports": {
     "preact":  "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
-    "react-icons/gr":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.3/mod.ts",
-    "react-icons/gr/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr/ico/",
+    "react-icons/gr":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.4/mod.ts",
+    "react-icons/gr/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-gr@1.0.4/ico/",
   }
 }
 ```
@@ -24,7 +24,7 @@ For a transparent usage:
 ## Direct import sample
 
 ```ts
-import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.3/mod.ts"
+import { GrAccessibility } from "https://deno.land/x/react_icons_gr@1.0.4/mod.ts"
 ```
 
 ## import_map import sample
