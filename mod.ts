@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import GrAccessibility from "react-icons/gr/GrAccessibility.ts"
+ * import GrAccessibility from "react-icons/gr/GrAccessibility"
  * ```
  * @module
  * 
